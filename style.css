@@ -29,3 +29,27 @@ nav {
   color: gray;
   font-weight: bold;
 }
+
+.hero-section {
+  height: calc(100vh - 7rem);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-content h1 {
+  text-transform: capitalize;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.section-content p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: green;
+}
