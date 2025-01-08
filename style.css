@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  width: 100vw;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1px 2px 3px black;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  gap: 5rem;
+}
+.nav-links a li {
+  font-size: 1.25rem;
+  color: gray;
+  font-weight: bold;
+}
