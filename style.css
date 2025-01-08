@@ -53,3 +53,12 @@ nav {
   font-size: 1.5rem;
   color: green;
 }
+.service-sec {
+  padding: 2rem 1rem;
+}
+.service-sec h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: green;
+}
